@@ -17,8 +17,9 @@ h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 }
 
 /*1st paragraph*/
-p:hover {
-  transform: scale(2);
+.p:hover {
+  transform: scale(1.5);
+  text-align: center;
   color: #ff0000;
 }
 
@@ -38,6 +39,11 @@ p {
 
 .img-rounded {
   image-resolution: rounded;
+  height: 125px;
+}
+
+.img2 {
+  height: 150px;
 }
 
 /*Carosal Styles*/
@@ -77,3 +83,87 @@ p {
   background-color: #d34326;
   border-color: #d34326;
 }
+
+#background1 {
+  background-image: url("../imgs/background.jpg");
+  height: 440px;
+  background-size: cover;
+}
+
+/*Row2 begins*/
+.summary {
+  margin: 0 0 10px;
+  color: #800080;
+  font-family: 'Pangolin', cursive;
+  width: 20%;
+  float: right;
+}
+
+/*comments*/
+.info div {
+    font-size: 100%;
+    line-height: 135%;
+    color: #737373;
+    font-family: 'Pangolin', cursive;
+}
+
+/*Row3 imgs*/
+#background2 {
+  background-image: url("../imgs/f13.jpg");
+  height: 157px;
+  background-size: contain;
+}
+
+#background3 {
+  background-image: url("../imgs/r2d2.jpg");
+  height: 157px;
+  background-size: contain;
+}
+
+#background4 {
+  background-image: url("../imgs/theflash.jpg");
+  height: 157px;
+  background-size: contain;
+}
+
+#background5 {
+  background-image: url("../imgs/pokemon.jpg");
+  height: 157px;
+  background-size: contain;
+}
+/*Row3 text*/
+.text3 {
+  color:#ff0000;
+  font-family: 'New Rocker', cursive;
+}
+.text3:hover {
+  :hover {
+    transform: scale(2);
+    text-align: center;
+}
+
+.text4 {
+  color: #ffff00;
+  font-family: 'Pangolin', cursive;
+}
+.text4:hover {
+  transform: scale(2);
+  text-align: center;
+}
+
+.text5 {
+  color: #008000;
+  font-family: 'New Rocker', cursive;
+}
+.text5:hover {
+  transform: scale(2);
+  text-align: center;
+}
+
+.text6 {
+  color: #000;
+  font-family: 'Pangolin', cursive;
+}
+.text6:hover {
+  transform: scale(2);
+  text-align: center;
