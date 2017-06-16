@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=New+Rocker|Pangolin');
+body {
+  font-size: 14px;
+    line-height: 1.42857143;
+    color: #ffff00;
+    background-color: #000;
+  }
+
+/*NavBar*/
+
+/*Header*/
+h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'New Rocker', cursive;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #336600;
+}
+
+/*1st paragraph*/
+p:hover {
+  transform: scale(2);
+  color: #ff0000;
+}
+
+p {
+    margin: 0 0 10px;
+    color: #ff0000;
+    font-family: 'Pangolin', cursive;
+}
+
+
+/*Row1*/
+.border1 {
+  border-style: solid;
+  width: 1px;
+  color:#990000
+}
+
+.img-rounded {
+  image-resolution: rounded;
+}
+
+/*Carosal Styles*/
+.item {
+  height: 425px;
+  background-position: center;
+  background-size: cover;
+}
+
+#website-img{
+  height: 250px;
+  transform: translateY(35%);
+}
+
+#web1-background {
+  background-image: url("../imgs/website1.jpg");
+}
+
+.carousel-caption {
+  margin-bottom: 8%;
+}
+
+#web2-background {
+  background-image: url("../imgs/website2.jpg");
+}
+
+#web3-background {
+  background-image: url("../imgs/website3.jpg");
+}
+
+.btn-warning {
+  background-color: #F8523F;
+  border: #F8512F;
+}
+
+.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning{
+  background-color: #d34326;
+  border-color: #d34326;
+}
