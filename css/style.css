@@ -7,6 +7,27 @@ body {
   }
 
 /*NavBar*/
+nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #ffff4d;
+    cursor: default;
+    background-color: #003300;
+    border: 1px solid #800000;
+    border-bottom-color: transparent;
+    font-family: 'New Rocker', cursive;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #ffff4d;
+    cursor: default;
+    background-color: #003300;
+    border: 1px solid #800000;
+    border-bottom-color: transparent;
+    font-family: 'New Rocker', cursive;
+}
+a{
+  color:#ffff4d;
+  font-family: 'Pangolin', cursive;
+}
 
 /*Header*/
 h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -43,7 +64,7 @@ p {
 }
 
 .img2 {
-  height: 150px;
+  height: 205px;
 }
 
 /*Carosal Styles*/
@@ -74,16 +95,6 @@ p {
   background-image: url("../imgs/website3.jpg");
 }
 
-.btn-warning {
-  background-color: #F8523F;
-  border: #F8512F;
-}
-
-.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning{
-  background-color: #d34326;
-  border-color: #d34326;
-}
-
 #background1 {
   background-image: url("../imgs/background.jpg");
   height: 440px;
@@ -92,8 +103,8 @@ p {
 
 /*Row2 begins*/
 .summary {
-  margin: 0 0 10px;
-  color: #800080;
+  margin: 0 135 10px;
+  color: #ff8c1a;
   font-family: 'Pangolin', cursive;
   width: 20%;
   float: right;
@@ -110,25 +121,25 @@ p {
 /*Row3 imgs*/
 #background2 {
   background-image: url("../imgs/f13.jpg");
-  height: 157px;
+  height: 137px;
   background-size: contain;
 }
 
 #background3 {
   background-image: url("../imgs/r2d2.jpg");
-  height: 157px;
+  height: 137px;
   background-size: contain;
 }
 
 #background4 {
   background-image: url("../imgs/theflash.jpg");
-  height: 157px;
+  height: 137px;
   background-size: contain;
 }
 
 #background5 {
   background-image: url("../imgs/pokemon.jpg");
-  height: 157px;
+  height: 137px;
   background-size: contain;
 }
 /*Row3 text*/
@@ -137,9 +148,8 @@ p {
   font-family: 'New Rocker', cursive;
 }
 .text3:hover {
-  :hover {
-    transform: scale(2);
-    text-align: center;
+  transform: scale(1);
+  text-align: center;
 }
 
 .text4 {
@@ -147,7 +157,7 @@ p {
   font-family: 'Pangolin', cursive;
 }
 .text4:hover {
-  transform: scale(2);
+  transform: scale(1);
   text-align: center;
 }
 
@@ -156,7 +166,7 @@ p {
   font-family: 'New Rocker', cursive;
 }
 .text5:hover {
-  transform: scale(2);
+  transform: scale(1);
   text-align: center;
 }
 
@@ -165,5 +175,26 @@ p {
   font-family: 'Pangolin', cursive;
 }
 .text6:hover {
-  transform: scale(2);
+  transform: scale(1);
   text-align: center;
+}
+
+/*message row*/
+.movie1 {
+  color:#ffff00;
+  font-size: xx-large;
+  margin-top: 6px;
+  font-family: 'New Rocker', cursive;
+}
+
+.movie2 {
+  font-size: xx-large;
+  margin-top: 200px;
+
+}
+
+/*footer*/
+.text-center {
+  font-family: 'New Rocker', cursive;
+  color: #00ff00;
+}
