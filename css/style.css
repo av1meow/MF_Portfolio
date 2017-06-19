@@ -110,6 +110,10 @@ p {
   float: right;
 }
 
+span.highlight {
+    background-color: #000;
+}
+
 /*comments*/
 .info div {
     font-size: 100%;
