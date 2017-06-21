@@ -7,6 +7,27 @@ body {
   }
 
 /*NavBar*/
+nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #ffff4d;
+    cursor: default;
+    background-color: #003300;
+    border: 1px solid #800000;
+    border-bottom-color: transparent;
+    font-family: 'New Rocker', cursive;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #ffff4d;
+    cursor: default;
+    background-color: #003300;
+    border: 1px solid #800000;
+    border-bottom-color: transparent;
+    font-family: 'New Rocker', cursive;
+}
+a{
+  color:#ffff4d;
+  font-family: 'Pangolin', cursive;
+}
 
 /*Header*/
 h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -17,8 +38,9 @@ h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 }
 
 /*1st paragraph*/
-p:hover {
-  transform: scale(2);
+.p:hover {
+  transform: scale(1.5);
+  text-align: center;
   color: #ff0000;
 }
 
@@ -38,6 +60,11 @@ p {
 
 .img-rounded {
   image-resolution: rounded;
+  height: 125px;
+}
+
+.img2 {
+  height: 205px;
 }
 
 /*Carosal Styles*/
@@ -68,12 +95,110 @@ p {
   background-image: url("../imgs/website3.jpg");
 }
 
-.btn-warning {
-  background-color: #F8523F;
-  border: #F8512F;
+#background1 {
+  background-image: url("../imgs/background.jpg");
+  height: 440px;
+  background-size: cover;
 }
 
-.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning{
-  background-color: #d34326;
-  border-color: #d34326;
+/*Row2 begins*/
+.summary {
+  margin: 0 135 10px;
+  color: #ff8c1a;
+  font-family: 'Pangolin', cursive;
+  width: 20%;
+  float: right;
+}
+
+span.highlight {
+    background-color: #000;
+}
+
+/*comments*/
+.info div {
+    font-size: 100%;
+    line-height: 135%;
+    color: #737373;
+    font-family: 'Pangolin', cursive;
+}
+
+/*Row3 imgs*/
+#background2 {
+  background-image: url("../imgs/f13.jpg");
+  height: 137px;
+  background-size: contain;
+}
+
+#background3 {
+  background-image: url("../imgs/r2d2.jpg");
+  height: 137px;
+  background-size: contain;
+}
+
+#background4 {
+  background-image: url("../imgs/theflash.jpg");
+  height: 137px;
+  background-size: contain;
+}
+
+#background5 {
+  background-image: url("../imgs/pokemon.jpg");
+  height: 137px;
+  background-size: contain;
+}
+/*Row3 text*/
+.text3 {
+  color:#ff0000;
+  font-family: 'New Rocker', cursive;
+}
+.text3:hover {
+  transform: scale(1);
+  text-align: center;
+}
+
+.text4 {
+  color: #ffff00;
+  font-family: 'Pangolin', cursive;
+}
+.text4:hover {
+  transform: scale(1);
+  text-align: center;
+}
+
+.text5 {
+  color: #008000;
+  font-family: 'New Rocker', cursive;
+}
+.text5:hover {
+  transform: scale(1);
+  text-align: center;
+}
+
+.text6 {
+  color: #000;
+  font-family: 'Pangolin', cursive;
+}
+.text6:hover {
+  transform: scale(1);
+  text-align: center;
+}
+
+/*message row*/
+.movie1 {
+  color:#ffff00;
+  font-size: xx-large;
+  margin-top: 6px;
+  font-family: 'New Rocker', cursive;
+}
+
+.movie2 {
+  font-size: xx-large;
+  margin-top: 200px;
+
+}
+
+/*footer*/
+.text-center {
+  font-family: 'New Rocker', cursive;
+  color: #00ff00;
 }
