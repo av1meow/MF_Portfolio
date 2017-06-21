@@ -58,9 +58,17 @@ p {
   color:#990000
 }
 
+/*blingee pic*/
 .img-rounded {
   image-resolution: rounded;
   height: 125px;
+}
+@media only screen and (max-width:700px) {
+  #blingee:hover {
+    transform: scale(1.5);
+    position: relative;
+    left: 60px;
+  }
 }
 
 .img2 {
@@ -108,6 +116,11 @@ p {
   font-family: 'Pangolin', cursive;
   width: 20%;
   float: right;
+}
+@media screen and (max-width:700px){
+  .summary {
+    background-color: #32cd32;
+  }
 }
 
 span.highlight {
