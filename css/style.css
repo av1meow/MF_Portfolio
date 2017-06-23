@@ -1,4 +1,6 @@
+/*GLOBALS*/
 @import url('https://fonts.googleapis.com/css?family=New+Rocker|Pangolin');
+
 body {
   font-size: 14px;
     line-height: 1.42857143;
@@ -13,7 +15,6 @@ nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     background-color: #003300;
     border: 1px solid #800000;
     border-bottom-color: transparent;
-    font-family: 'New Rocker', cursive;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -22,9 +23,8 @@ nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     background-color: #003300;
     border: 1px solid #800000;
     border-bottom-color: transparent;
-    font-family: 'New Rocker', cursive;
-}
-a{
+  }
+a {
   color:#ffff4d;
   font-family: 'Pangolin', cursive;
 }
@@ -35,6 +35,7 @@ h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 1.1;
     color: #336600;
+    text-decoration: blink;
 }
 
 /*1st paragraph*/
@@ -48,6 +49,7 @@ p {
     margin: 0 0 10px;
     color: #ff0000;
     font-family: 'Pangolin', cursive;
+    padding-left: 20px;
 }
 
 
@@ -214,4 +216,5 @@ span.highlight {
 .text-center {
   font-family: 'New Rocker', cursive;
   color: #00ff00;
+  float: right;
 }
